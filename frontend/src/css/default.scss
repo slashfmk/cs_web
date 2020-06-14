@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&display=swap');
+
+@import 'colors';
+@import 'fonts';
+@import 'utility';
 
 *,
 *::before,
@@ -7,15 +10,8 @@
   margin: 0;
 }
 
-$color-primary: #FB0F00;
-$color-secondary: #0BB5B2;
-$color-white: #ffffff;
-$color-grey-light: #EAEAEC;
-$color-dark: #282c34;
-$color-darkest: #000000;
-
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $default-font;
   background-color: $color-darkest;
 }
 
@@ -36,7 +32,7 @@ body {
   grid-template-rows: repeat(5, 1fr);
   padding: 1rem;
 
-  background-image: linear-gradient(rgba($color-dark, .8), rgba($color-dark, .8)),
+  background-image: $gradient-default,
   url("https://images.unsplash.com/photo-1589678443204-e51bb030c963?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
 
   &__slogan {

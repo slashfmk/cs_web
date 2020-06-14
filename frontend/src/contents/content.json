@@ -25,14 +25,17 @@
       "bg": "#000",
       "content": [
         {
+          "icon": "globe-americas",
           "title": "Web Design & Dev.",
           "description": "PyCharm offers great framework-specific support for modern web development frameworks such as Django, Flask, Google App Engine, Pyramid, and web2py."
         },
         {
+          "icon": "phone",
           "title": "Mobile Apps Dev",
           "description": "Exploring and understanding team, legacy, or foreign projects takes a lot of time and effort."
         },
         {
+          "icon": "desktop",
           "title": "Desktop Software",
           "description": "The most powerful Javascript IDE in the world, and it is well known for its power over angular, react and vue.js"
         }
@@ -44,26 +47,32 @@
       "bg": "#3B3E43",
       "content": [
         {
+          "icon": "code",
           "title": "C Lion",
           "description": "Our IDEs natively support C and C++, including modern C++ standards, Boost and libc++ libraries. C++ templates and macros are resolved correctly and supported for all IDE features."
         },
         {
+          "icon": "code",
           "title": "PyCharm",
           "description": "The most powerful and complete Java IDE in the world"
         },
         {
+          "icon": "keyboard",
           "title": "Visual Studio",
           "description": "The most powerful Javascript IDE in the world, and it is well known for its power over angular, react and vue.js"
         },
         {
+          "icon": "keyboard",
           "title": "App Code",
           "description": "The most powerful Javascript IDE in the world, and it is well known for its power over angular, react and vue.js"
         },
         {
+          "icon": "mouse",
           "title": "C++ Rider",
           "description": "The most powerful Javascript IDE in the world, and it is well known for its power over angular, react and vue.js"
         },
         {
+          "icon": "key",
           "title": "Reshaper",
           "description": "The most powerful Javascript IDE in the world, and it is well known for its power over angular, react and vue.js"
         }
